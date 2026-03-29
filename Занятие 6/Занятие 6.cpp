@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 #include <cctype>
 using namespace std;
@@ -37,7 +37,7 @@ void task1()
 void task2()
 {
     //Дана строка. Перевернуть каждое слово в строке. Порядок слов не менять
-    string s = "от топыта копыт";
+    string s = " от топота копыт    0009  1234 56";
     int ln = s.length();
     int l = 0;
     cout << s << "\n";
